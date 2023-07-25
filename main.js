@@ -9,7 +9,7 @@ var blockImageObject= "";
 
 function newImage(getImage)
 {
-	fabric.Image.fromURL(get_image, function(Img) {
+	fabric.Image.fromURL(getImage, function(Img) {
 		block_image_object = Img;
 
 		block_image_object.scaleToWidth(block_image_width);
